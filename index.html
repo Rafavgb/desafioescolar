@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Acesso escolar</title>
+  </head>
+  <body>
+    <header class="bg-header">
+      <nav class="menu-navbar">
+        <div class="menu-logo">
+
+        </div>
+        <ul class="menu-navbar-items">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Notas</a></li>
+          <li><a href="#">Sign In</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </nav>
+      <div class="intro-header">
+        <h1>Bem vindo!</h1>
+        <p>
+          Por favor, insira as informações do aluno.
+        </p>
+      </div>
+    </header>
+
+    <section class="data-form">
+      <form>
+        <div class="form-item">
+          <label for="name">Nível escolar</label>
+          <select id="subject"required>
+            <option></option>
+            <option value="React: Ensino Fundamental">Ensino Fundamental</option>
+            <option value="React: 1° ano do ensino médio">1º ano do ensino médio</option>
+            <option value="React: 2° ano do ensino médio">2º ano do ensino médio</option>
+            <option value="React: 3° ano do ensino médio">3º ano do ensino médio</option>
+            <option value="React: Cursinho">Cursinho</option>
+            <option value="React: 4° ano do ensino fundamental">4º ano do ensino fundamental</option>
+            <option value="React: 5° ano do ensino fundamental">5º ano do ensino fundamental</option>
+            <option value="React: 6° ano do ensino fundamental">6º ano do ensino fundamental</option>
+            <option value="React: 7° ano do ensino fundamental">7º ano do ensino fundamental</option>
+            <option value="React: 8° ano do ensino fundamental">8º ano do ensino fundamental</option>
+            <option value="React: 9° ano do ensino fundamental">9º ano do ensino fundamental</option>
+            <option value="React: Estudo em casa">Estudo em casa</option>
+            <option value="React: Outros">Outros</option>
+          </select>
+        </div>
+        <div class="form-item">
+          <label for="ra">RA</label>
+          <input type="number" id="ra" placeholder="#" required />
+        </div>
+        <div class="form-item">
+          <label for="subject">Matéria</label>
+          <select id="subject"required>
+            <option></option>
+            <option value="React: Matemática">Matemática</option>
+            <option value="React: Português">Português</option>
+            <option value="React: História">História</option>
+            <option value="React: Geografia">Geografia</option>
+          </select>
+        </div>
+        <div class="form-item">
+          <label for="subject">Professor</label>
+          <select id="subject"required>
+            <option></option>
+            <option value="React: Professor 1">Professor 1</option>
+            <option value="React: Professor 2">Professor 2</option>
+            <option value="React: Professor 3">Professor 3</option>
+            <option value="React: Professor 4">Professor 4</option>
+            <option value="React: Professor 5">Professor 5</option>
+            <option value="React: Professor 6">Professor 6</option>
+          </select>
+        </div>
+        <input type="submit" id="btn"></input>
+      </form>
+    </section>
+
+    <section>
+      <ul class="data"></ul>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
